@@ -1,0 +1,142 @@
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #000000f2;
+    ;
+    --text-color: #000000f2;
+    ;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navOuter {
+    width: 300px;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translatex(-80%);
+
+}
+
+#navInner {
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    background-color: #000;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+#sideOpening {
+    width: 5%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 1001;
+
+}
+
+#sideOpening img {
+    width: 70%;
+
+}
+
+#navIcon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.side-link {
+    transition: all 2s;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 25px;
+
+
+}
+
+.side-link:hover {
+    color: rgb(247, 216, 169);
+}
+
+#navOuter i span {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 15px;
+}
+
+#sideIcon {
+    position: absolute;
+    bottom: 40px;
+}
+
+#sideIcon p {
+    color: rgb(192, 192, 192);
+}
+
+#sideIcon i {
+    color: rgb(32, 32, 32);
+    transition: all .5s;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#sideIcon i :hover {
+    color: #fff;
+}
+
+
+
+.recipesContents{
+    color: #155724;
+    width: fit-content;
+    padding: 5px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-radius: 5px;
+}
+.taglist p{
+    color: #721c24;
+    width: fit-content;
+    padding: 5px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+}
+#youtube{
+    background-color: #f70000;
+    border-color: #f70000;
+    color: #fff;
+}
+#source{
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+
+
+
+
+
+
+

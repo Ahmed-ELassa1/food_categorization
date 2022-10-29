@@ -1,0 +1,173 @@
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #000000f2;
+    ;
+    --text-color: #000000f2;
+    ;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navOuter {
+    width: 300px;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translatex(-80%);
+
+}
+
+#navInner {
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    background-color: #000;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+#sideOpening {
+    width: 5%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 1001;
+
+}
+
+#sideOpening img {
+    width: 70%;
+
+}
+
+#navIcon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.side-link {
+    transition: all 2s;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 25px;
+
+
+}
+
+.side-link:hover {
+    color: rgb(247, 216, 169);
+}
+
+#navOuter i span {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 15px;
+}
+
+#sideIcon {
+    position: absolute;
+    bottom: 40px;
+}
+
+#sideIcon p {
+    color: rgb(192, 192, 192);
+}
+
+#sideIcon i {
+    color: rgb(32, 32, 32);
+    transition: all .5s;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#sideIcon i :hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#categories {
+    width: 100%;
+}
+
+.catMeal,
+.recipMeal {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid rgb(20, 20, 20,.5);
+    box-shadow: 7px 7px 5px rgba(17, 17, 17, 0.5);
+    cursor: pointer;
+
+}
+
+.catMeal a,
+.recipMeal a{
+    position: relative;
+}
+
+.catgmealOverly,
+.recipOverly {
+    background-color: rgba(255, 255, 255,.6);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: -100%;
+    transition: bottom 1.1s  ;
+    text-align: center;
+
+}
+.catgmealText,
+.recipText {
+    color: #000;
+    font-size: 35px;
+    text-transform: capitalize; 
+
+}
+.mealdiscrp {
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize; 
+
+}
+.catMeal:hover .catgmealOverly,
+.recipMeal:hover .recipOverly{
+    bottom: 0;
+}
+
+
+
