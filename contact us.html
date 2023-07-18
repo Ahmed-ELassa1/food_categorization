@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <title>Yummy</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+</head>
+
+<body>
+
+    <div class="loading">
+        <div class="lds-default">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <nav>
+        <div class="container d-flex p-0" id="navOuter">
+            <div class="nav-links py-4 ps-4 column" id="navInner">
+                <a class="side-link text-capitalize" aria-current="page" href="search.html" id="searchLink">search</a>
+                <a class="side-link text-capitalize" href="categories.html" id="categoriesLink">categories</a>
+                <a class="side-link text-capitalize" href="area.html" id="areaLink">area</a>
+                <a class="side-link text-capitalize" href="ingredients.html" id="ingredientsLink">ingredients</a>
+                <a class="side-link text-capitalize" href="contact us.html" id="contactLink">contact us</a>
+
+                <div id="sideIcon">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f ms-2"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter ms-2"></i></a>
+                    <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-globe ms-2"></i></a>
+                    <p>Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="sideOpening" class="py-4 ">
+            <div>
+                <img src="img/logo.png">
+            </div>
+            <div>
+                <i id="navIcon" class="fa-solid fa-bars text-dark fs-3"></i>
+                <!-- <i class="fa-solid fa-xmark text-white fs-4" id="closeNav"></i> -->
+            </div>
+            <div class="row">
+                <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-globe mb-2 text-dark"></i></a>
+                <a href="https://www.google.com" target="_blank"><i
+                        class="fa-solid fa-share-nodes mb-2 text-dark"></i></a>
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <header>
+        <div class="pt-5" id="contact">
+            <div class="w-100 row  text-center justify-content-center pt-5">
+                <h1 class="text-capitalize text-white fs-3 py-5">contact us...</h1>
+                <form action="" class="row">
+                    <input type="text" placeholder="enter your name" id="nameInp" class="form-control">
+                    <input type="email" placeholder="enter email" id="mailInp" class="form-control">
+                    <div class="col-5 ">
+                        <p class="warning d-none" id="nameWarnig">Special Characters and Numbers not allowed</p>
+                    </div>
+                    <div class="col-5 ">
+
+                        <p class="warning  d-none" id="mailWarnig">Enter valid email. *Ex: xxx@yyy.zzz</p>
+                    </div>
+
+                    <input type="number" placeholder="enter phone" id="phoneInp" class="form-control">
+                    <input type="number" placeholder="enter age" id="ageInp" class="form-control">
+                    <div class="col-5 ">
+
+                        <p class="warning d-none" id="phoneWarnig">Enter valid Phone Number</p>
+                    </div>
+                    <div class="col-5 ">
+
+                        <p class="warning d-none" id="ageWarnig">Enter valid Age</p>
+                    </div>
+                    <input type="password" placeholder="enter password" id="passInp" class="form-control">
+                    <input type="password" placeholder="enter rePassword" id="repassInp" class="form-control">
+                    <div class="col-5 ">
+
+                        <p class="warning d-none" id="passWarnig">Enter valid password *Minimum eight characters,
+                            at
+                            least one letter and one number:*</p>
+                    </div>
+                    <div class="col-5 ">
+                        <p class="warning d-none" id="repassWarnig">Enter valid Password</p>
+                    </div>
+                    <button type="button" id="sumbitBtn" disabled class="btn border-danger text-danger">submit</button>
+                </form>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>
